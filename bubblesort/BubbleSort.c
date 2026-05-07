@@ -15,7 +15,7 @@ int main(){
     
     for (i=0;i<N-1;i++){
         for (j=0;j<N-1;j++){
-            if (numeros[j] < numeros[j+1]){
+            if (numeros[j] > numeros[j+1]){
                 a = numeros[j];
                 numeros[j] = numeros[j+1];
                 numeros[j+1] = a;
